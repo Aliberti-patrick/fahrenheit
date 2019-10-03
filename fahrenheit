@@ -1,0 +1,12 @@
+#include <cs50.h>
+#include <math.h>
+#include <stdio.h>
+
+ int main(void)
+{
+     // Prompt the user for a number
+    float x = get_float("Enter the degree in celsius: ");
+
+    // Covnvert the number to fahrenheit
+    printf("%f converted to fahrenheit equals: %f\n", x, ((x * 9) / 5) + 32);
+}
